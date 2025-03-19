@@ -65,9 +65,11 @@
   div.browseWindow {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
+    width: 100%;
   }
-
-  .browseWindow > div {
-
+  div.moviePoster img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
   }
