@@ -1,0 +1,87 @@
+/*COLORS:
+Header background - #FFDBAA
+button - #805215
+Header Text - #553100
+Main background - #D4A76A*/
+
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    background-color: #343A40;
+    padding: 0px;
+    align-items: center;
+  }
+
+
+  h1 {
+    font-size: 2em;
+    color: white;
+    align-items: center;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+  }
+
+  header nav a {
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  header nav ul li {
+    padding: 10px;
+  }
+
+  header form {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .login-container {
+    width: 400px;
+    margin: 10px auto;
+    font-family: 'Arial', sans-serif;
+  }
+
+  div h2 {
+    text-align: center;
+  }
+
+  div form input.passwordInput {
+    width: 100%;
+  }
+
+  div form input.emailInput {
+    width: 100%;
+  }
+
+  div form input.loginSubmitButton {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    padding: 5px;
+  }
+
+  .searchBarButton {
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #343A40;
+    border-color: rgb(235, 177, 4);
+    color:rgb(235, 177, 4)
+  }
+
