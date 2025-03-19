@@ -1,0 +1,80 @@
+/*COLORS:
+Header background - #FFDBAA
+button - #805215
+Header Text - #553100
+Main background - #D4A76A*/
+
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    background-color: #343A40;
+    padding: 0px;
+    align-items: center;
+  }
+
+  input.searchBar {
+    font-color: red;
+  }
+
+  input.searchBarButton {
+    font-color: red;
+  }
+
+  h1 {
+    font-size: 2em;
+    color: white;
+    align-items: center;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+  }
+
+  header nav a {
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  header nav ul li {
+    padding: 10px;
+  }
+
+  div h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+
+  div form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  label.emailLabel {
+  }
+
+  input.emailInput {
+    margin: 0;
+    width: 50%;
+  }
+
+  input.passwordInput {
+    margin: 0;
+    width: 50%;
+  }
+
+  input.loginSubmitButton {
+    
+  }
+
