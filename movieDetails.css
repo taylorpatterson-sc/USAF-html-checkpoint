@@ -61,3 +61,39 @@ header {
     margin: 5px;
     padding: 5px;
   }
+
+  div.movieContainer {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  div.moviePoster {
+    display: flex;
+    flex: 0 0 300px;
+    margin: 10px;
+  }
+
+  div.moviePoster img {
+    display: block;
+    width: 100%;
+  }
+
+  div.movieDetails {
+    flex: 1;
+  }
+
+  div.commentSection {
+    margin-left: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .commentSubmitButton {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    padding: 5px;
+  }
+
+  .commentText {
+    height: 40px;
+  }
